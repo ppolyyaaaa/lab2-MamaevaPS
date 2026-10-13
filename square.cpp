@@ -1,8 +1,6 @@
 #include <iostream>
 
-auto square(int x) -> int {
-    return x * x;
-}
+auto square(int x) -> int { return x * x; }
 
 int main() {
     auto number{7};
